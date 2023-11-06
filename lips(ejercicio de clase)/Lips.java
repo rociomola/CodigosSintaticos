@@ -8,7 +8,7 @@ public class Lips {
     private static Yytoken actual;
 
     private static void checkActual() throws ParseException {
-        if(Object.isNull(actual)) {
+        if(Objects.isNull(actual)) {
             throw new ParseException("Fin de fichero inesperado", lex.linea);
         }
     }
