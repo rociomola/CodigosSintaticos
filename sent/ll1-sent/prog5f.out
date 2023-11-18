@@ -1,3 +1,4 @@
+
 axioma -> listaSent EOF
 listaSent -> sent listaSent
 sent -> WHILE AP cond CP sent

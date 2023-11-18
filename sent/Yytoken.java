@@ -55,6 +55,7 @@ class Yytoken {
 		}
 	}
 
+	
 	//Para escribir un mensaje de error en el canal de salida
 	public static void error(int itoken) {
 		if (itoken<0 || itoken>tokens.length) {
